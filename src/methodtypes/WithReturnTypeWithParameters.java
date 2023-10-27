@@ -16,7 +16,9 @@ return result;
     }
 
     String name(String name){ //method with no syntax - default, no public, no private, no protected
-    return name;
+
+
+        return name;
     }
 
 }
