@@ -6,6 +6,10 @@ public int addition(int a , int b){   //method signature
 int result = a+b;
 return result;
 }
+
+
+
+
     public static void main(String[] args) {
     WithReturnTypeWithParameters obj = new WithReturnTypeWithParameters();
     obj.addition(10,20);

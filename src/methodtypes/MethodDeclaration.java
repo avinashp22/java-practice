@@ -9,9 +9,12 @@ public class MethodDeclaration {
         System.out.println("This is M2 Method");
     }
 
-    public void m3() {
+    public void m3( ) {
         m2();
     }
+
+
+
     public static void addition() {
         System.out.println("This is Addition Method");
     }
