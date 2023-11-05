@@ -8,18 +8,14 @@ public class FinallyExample {
         int b =5;
 
         try
-        {
-            System.out.println(a/b+ " - i am risky code)");
-        }
+        {System.out.println(a/b+ " - i am risky code)");}
         catch (Exception e)   //unknown errors use exception class instead of ArithmeticException class
         {
             System.out.println(e.getMessage());
             System.out.println("i am in catch block - i execute in error");
         }
         finally
-        {
-            System.out.println("i am in finally block -  i always execute");
-        }
+        {System.out.println("i am in finally block -  i always execute");}
 
         System.out.println("text after risky code - i am outside i will always print");
 

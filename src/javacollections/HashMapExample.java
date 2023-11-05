@@ -8,10 +8,12 @@ public class HashMapExample {
 
     public static void main(String[] args) {
 
-        Map <Integer, String> carMap = new HashMap();
+        HashMap <Integer,String> carMap = new HashMap();
         carMap.put(1, "BMW");
         carMap.put(2, "Ford");
         carMap.put(3, "Audi");
+
+
 
         for (Map.Entry<Integer, String> car: carMap.entrySet() ){
         System.out.println(car.getKey() + " " + car.getValue());
