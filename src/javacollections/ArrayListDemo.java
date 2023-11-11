@@ -9,26 +9,20 @@ public class ArrayListDemo {
     public static void main(String[] args) {
 
         ArrayList<String> carList = new ArrayList();   //declaration of error list
-
         carList.add("Audi");
         carList.add("BMW");
         carList.add("Ford");
         carList.add("Toyota");
              carList.add(null);
 
-        System.out.println(carList.size());
-        System.out.println(carList.get(1));
+        System.out.println(carList.get(4));
 
+      //  System.out.println(carList.size());
 
-        for( String car  :  carList  ){
-            System.out.println(car);
+      //  for( String car  :  carList  )
+     //   {System.out.println(car);}
 
+      //  carList.remove("Toyota");
+       // for( String car  :  carList  ){System.out.println(car);}
     }
-
-        carList.remove("Toyota");
-        for( String car  :  carList  ){
-            System.out.println(car);
-
-        }
-
-    } }
+}

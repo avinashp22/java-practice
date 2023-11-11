@@ -8,16 +8,17 @@ public class HashSetDemo {
     public static void main(String[] args) {
 
         HashSet <String>  courseSet = new HashSet();
-        courseSet.add ("java");
-        courseSet.add ("api");
-        courseSet.add ("sql");
         courseSet.add ("selenium");
+        courseSet.add ("java");
+        courseSet.add ("postman");
+        courseSet.add ("sql");
+        courseSet.add(null);
 
-        System.out.println(courseSet);
+//        System.out.println(courseSet);
 
-        for ( String name  :    courseSet);{
-            System.out.println(courseSet + " ");
-    }
+//        for ( String name  :    courseSet);{
+//            System.out.println(courseSet + " ");
+//    }
 
         Iterator<String> list = courseSet.iterator();
         while (list.hasNext())

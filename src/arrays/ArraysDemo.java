@@ -8,7 +8,16 @@ public class ArraysDemo {
     String studentName[];
 
 
+
     public static void main(String[] args) {
+
+
+      //  Object [] o = new Object[10000];
+       // o[0] = new Student();
+      //  o[1] = new Customer();
+
+
+
         //Approach 1
         int x[] = {10,20,30,40,50}; //index 0 is 10, index 1 is 20
         System.out.println(x[3]); // index for 40 would be 3
